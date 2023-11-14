@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-4.5v4ZUQ4YJ8wV6IH47ZlHz6ExB6iC2HxZC5N5fB8dj+R0+j4/AxFwbp5C5VtoF2y5CMqfL9yIf9+oFj5/s0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="weather-card" id="eilat">
+                    <i id="eilat-icon" class="fas fa-icon weather-icon"></i>
+                    <div class="info-item">
+                        <p class="city-name" id="eilat-name"></p>
+                        <p class="description light" id="eilat-description"></p>
+                    </div>
+                    <div class="weather-info">
+                        <div class="info-item">
+                            <div class="info-label">טמפ' נמדדת</div>
+                            <p class="temperature size" id="eilat-temp"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">טמפ' מורגשת</div>
+                            <p class="feels-like size" id="eilat-feels-like"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">לחות:</div>
+                            <p class="humidity size" id="eilat-humidity"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="weather-card" id="london">
+                    <i id="london-icon" class="fas fa-icon weather-icon"></i>
+                    <div class="info-item">
+                        <p class="city-name" id="london-name"></p>
+                        <p class="description light" id="london-description"></p>
+                    </div>
+                    <div class="weather-info">
+                        <div class="info-item">
+                            <div class="info-label">טמפ' נמדדת</div>
+                            <p class="temperature size" id="london-temp"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">טמפ' מורגשת</div>
+                            <p class="feels-like size" id="london-feels-like"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">לחות:</div>
+                            <p class="humidity size" id="london-humidity"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="weather-card" id="new-york">
+                    <i id="new-york-icon" class="fas fa-icon weather-icon"></i>
+                    <div class="info-item">
+                        <p class="city-name" id="new-york-name"></p>
+                        <p class="description light" id="new-york-description"></p>
+                    </div>
+                    <div class="weather-info">
+                        <div class="info-item">
+                            <div class="info-label">טמפ' נמדדת</div>
+                            <p class="temperature size" id="new-york-temp"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">טמפ' מורגשת</div>
+                            <p class="feels-like size" id="new-york-feels-like"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">לחות:</div>
+                            <p class="humidity size" id="new-york-humidity"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="weather-card" id="alaska">
+                    <i id="alaska-icon" class="fas fa-icon weather-icon"></i>
+                    <div class="info-item">
+                        <p class="city-name" id="alaska-name"></p>
+                        <p class="description light" id="alaska-description"></p>
+                    </div>
+                    <div class="weather-info">
+                        <div class="info-item">
+                            <div class="info-label">טמפ' נמדדת</div>
+                            <p class="temperature size" id="alaska-temp"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">טמפ' מורגשת</div>
+                            <p class="feels-like size" id="alaska-feels-like"></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">לחות:</div>
+                            <p class="humidity size" id="alaska-humidity"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

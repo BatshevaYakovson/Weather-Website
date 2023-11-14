@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Secular One', sans-serif;
+    background-color: #C2E6FF;
+    direction: rtl;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.weather-card {
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    max-width: 400px;
+}
+
+.weather-icon {
+    font-size: 2em;
+    /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.city-name {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info-item {
+    width: 48%;
+    /* Adjust the width as needed */
+}
+
+.info-label {
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+.size {
+    font-size: 1.6em;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.fa-icon {
+    font-size: 2em;
+
+}
+
+.fa-bolt {
+    color: #3F50B5;
+}
+
+.fa-cloud {
+    color: #68D0F1;
+}
+
+.fa-sun {
+    color: #EEBD11;
+}
+
+.light {
+    color: #9D9D9D;
+    margin-left: 45px;
+}
